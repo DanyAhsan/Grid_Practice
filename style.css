@@ -1,0 +1,1002 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1{
+
+    font-family: Open Sans, sans-serif;
+    background: url(./bg-01-free-img.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    /* opacity: 0.5; */
+    /* z-index: ; */
+
+}
+
+
+header{
+    height: 100px;
+    /* background-color  : gray; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 10%;
+    /* border: 1px solid blue; */
+}
+
+.logo{
+    /* border: 1px solid palevioletred; */
+}
+
+.nav{
+    width: 120%;
+    /* border: 1px solid palevioletred; */
+}
+.top-num{
+    /* border: 1px solid palevioletred; */
+    margin-left: 29%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.p1-list{
+    padding: 0 5px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.p1-list:after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition: all .5s;
+}
+
+.p1-list:hover::after{
+    width: 100%;
+}
+
+main h1{
+    font-size: 115px;
+    font-weight: 700px;
+    color: #B19540;
+    line-height: 126px;
+    /* text-transform: uppercase; */
+    font-family: "Libre Baskerville",serif;
+
+}
+
+.mid-h2{
+    font-family: "Libre Baskerville",serif;
+    line-height: 34px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.h2-text{
+    font-family: "Libre Baskerville",serif;
+    font-size: 50px;
+    font-weight: 700px;
+    color: #B19540;
+
+}
+
+.page1-p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: 100%;
+    color: white;
+    line-height: 27.5px;
+    margin: 30px 5px;
+}
+
+/* .sign-in:hover{
+    background-color: none;
+    color:#B19540
+} */
+
+/* .sign-in{
+    padding: 13px 30px;
+    background: #B19540;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* border-radius: 50px; */
+} */
+
+.logo{
+    width: 25%;
+}
+
+
+main{
+    display: grid;
+    /* border: 1px solid yellow; */
+    height: calc(100vh - 100px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:50% 30% 20%;
+    justify-content: center;
+    margin: 0 110px 0 110px;
+    /* background: url(./bg-01-free-img.jpg); */
+    /* opacity: 0.5; */
+
+    
+}
+
+.content-top{
+    display: grid;
+    /* border: 1px solid blue; */
+    grid-column: span 3;
+    /* height: 50%; */
+
+    
+}
+
+.content-middle{
+    display: grid;
+    /* border: 1px solid blue; */
+    grid-column: span 3;
+    color: white;
+    width: 30%;
+    padding: 2% 0 0 5px;
+    /* height: 50%; */
+    
+}
+/* .empty{
+    display: grid;
+    border: 1px solid blue;
+} */
+.content-end{
+    display: grid;
+    /* border: 1px solid blue; */
+    grid-column: span 1;
+    /* height: 50%; */
+    color: white ;
+    width: 80%;
+    align-items: center;
+
+    
+}
+
+.content-last{
+    display: grid;
+    /* border: 1px solid blue; */
+    grid-column: span 2;
+    /* height: 50%; */
+    color: white ;
+    width: 45%;
+   
+}
+
+/* .page1-h1{
+    font-family: "Libre Baskerville"
+    serif;
+} */
+
+/* -------------------------------------------------------- */
+.page2{
+    display: grid;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-color: #101010;
+}
+
+
+.page2-body{
+    display: grid;
+    height: 100vh;
+    /* border: 1px solid blue; */
+    color: #fff;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50% 50%;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.car{
+    display: grid;
+    /* border: 1px solid orangered; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    place-items: center;
+    border-radius: 7px;   
+}
+
+.car-data{
+    display: grid;
+    /* border: 1px solid orangered; */
+    width: 100%;
+
+    justify-content: center;
+    /* align-items: center; */
+    /* place-items: center; */
+    border-radius: 7px;   
+    padding-top: 5%;
+}
+
+.rent-btn{
+    padding: 13px 30px;
+    background: none;
+    color: #B19540;
+    outline: none;
+    border: 2px solid #B19540;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 70%;
+    transition: .5s;
+    /* width: 70%; */
+    /* border-radius: 50px; */
+}
+.rent-btn:hover{
+    background-color: #B19540;
+    color: #fff;
+    cursor: pointer;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .name {
+    
+    padding-bottom: 10px;
+    border-bottom: 2px solid #B19540;
+  }
+  .features {
+    
+    margin: 10px 0;
+    width: 70%;
+  }
+  .price span {
+    color: #B19540;
+    font-weight: bold;
+    font-size: 30px;
+  }
+/* -------------------------------------------------------- */
+.page3{
+    display: grid;
+    height: 110vh;
+    /* border: 2px solid red; */
+    background: url(./bg-03-free-img.jpg);  
+}
+.page3-body{
+    display: grid;
+    /* height: 110vh; */
+    grid-template-columns: 55% 45%;
+    
+}
+.left{
+    display: grid;
+    height: 93%;
+    /* grid-template-columns: repeat(1,1fr); */
+    grid-template-rows: 50% 30% 20%;
+    /* border: 1px solid green; */
+    color: #fff;
+}
+
+.right{
+    display: grid;
+    height: 93%;
+    /* border: 1px solid green; */
+    /* justify-content: center; */
+    /* padding: 10% 0 0 10%; */
+    /* padding-top: 5%; */
+    background-size: cover;
+
+    
+}
+.more-info{
+    /* padding: 13px 30px; */
+    background: none;
+    color: #B19540;
+    outline: none;
+    border: 2px solid #B19540;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* height: 70%; */
+}
+.p3h1{
+    /* width: 50%; */
+    margin: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-bottom: 20%;
+    /* gap: 10px; */
+}
+.p3p{
+    width: 80%;
+    /* margin-bottom: 100px; */
+    /* padding-bottom: 300px; */
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    /* gap: 10px; */
+}
+.p3b{
+    padding-left : 100px;
+    
+    
+}
+.more-info{
+    padding: 13px 30px;
+    background: none;
+    color: #B19540;
+    outline: none;
+    border: 2px solid #B19540;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* height: 20%; */
+    width: 30%;
+}
+.more-info:hover{
+    background-color: #B19540;
+    color: #fff;
+    cursor: pointer;
+}
+
+.p3span{
+    color: #B19540;
+}
+/* ======================================================= */
+
+.page4{
+    display: grid;
+    background: url(./bg-04-free-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page4-body{
+    display: grid;
+    height: 180vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60vh 60vh 60vh;
+    padding: 0% 10%;
+}
+
+.page4-inside{
+    border-top: 2px solid #B19540;
+    /* border-top: 2px solid #B19540; */
+    display: grid;
+    margin: 25% 5% 10% 5%;
+    padding-top: 10%;
+}
+
+.content1{
+    /* border: 1px solid blue; */
+}
+
+.c1{
+    grid-column: span 3;
+}
+.c2{
+    grid-row: span 2;
+}
+
+.page4-h6{
+    font-family:  "Libre Baskerville", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(16, 16, 16);
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+.page4-h2{
+    font-family:  "Libre Baskerville", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color:#B19540;
+    padding-top: 25px;
+    padding-bottom: 200px;
+    width:60% ;
+    padding-left: 2%;
+}
+
+.page4serv{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    line-height: 34.8px;
+    font-weight: 700;
+}
+
+.page4sinfo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8D8D8D;
+    font-size: 15px;
+    line-height: 27.8px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.page4-btn{
+    border:none ;
+    background-color: transparent; /* Set background to transparent */
+    width: 50%;
+    /* margin-left: 25%; */
+    color: black; /* Set text color */
+    margin-top: 5%;
+    padding-right:22% ;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    transition: .5s;
+
+
+}
+
+.page4-btn:hover{
+    color: #B19540;
+    cursor: pointer;
+}
+/* .page4-c2{
+    border: 2px solid red;
+    border-top: 2px solid #B19540;
+    display: grid;
+    margin: 25% 5% 5% 5%;
+    padding-top: 10%;
+} */
+
+
+
+
+
+/* ======================================================== */
+.page5{
+    display: grid;
+    height: 176vh;
+    
+}
+
+.page5body{
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40% 20% 40%;
+    /* grid-template-rows: 70.4vh 35.2vh 70.4vh; */
+    /* border: 2px solid black; */
+    
+}
+
+.element1{
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* border: 1px solid rgba(139, 0, 139, 0.603); */
+}
+
+.el1{
+    grid-row: span 3;
+    width: 700px;
+    margin-left:-320px;
+    object-position: 5%;
+}
+
+.el2{
+    grid-column: span 4;
+}
+
+.el3{
+    grid-column: span 2;
+}
+
+.el4{
+    grid-column: span 2;
+}
+
+.el5{
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid green; */
+}
+
+.box1{
+    /* border: 1px solid blue; */
+}
+
+
+
+.p5h3{
+    
+    font-family:  "Libre Baskerville", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(16, 16, 16);
+    padding-top: 200px;
+    padding-left: 9%;
+}
+.p5h1{
+    font-family:  "Libre Baskerville", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color:#B19540;
+    padding-top: 5px;
+    padding-bottom: 200px;
+    width:80% ;
+    padding-left: 9%;
+}
+
+.p5p3{
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 27.8571px;
+    color: rgb(141, 141, 141);
+    display: grid;
+    padding: 9% 1% 0% 19%;
+}
+
+.p5p4{
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 27.8571px;
+    color: rgb(141, 141, 141);
+    display: grid;
+    padding: 9% 1% 0% 14%;
+}
+
+.p5n{
+    font-family: "Libre Baskerville", serif;
+    font-size: 150px;
+    font-weight: 400;
+    color: #B19540;
+    padding-left: 17%;
+    padding-top: 21%;
+}
+
+.p5d{
+    font-family: "Libre Baskerville",serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #101010;
+    line-height: 24px;
+    padding-left: 19%;
+}
+/* ------------------------------------------------------- */
+
+.page6{
+    display: grid;
+    height: 170vh;
+
+}
+.page6body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 27% 73%;
+    /* border: 1px solid red; */
+    /* padding: 5% 0%; */
+    margin: 0% 8%;
+}
+
+.child1{
+    display: grid;
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+.ch1{
+    grid-column: span 3;
+    /* height: 30vh; */
+}
+.p6heading{
+    font-family: "Libre Baskerville",serif;
+    color: #B19540;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 12%;
+}
+.ch2{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    /* height: 125vh; */
+}
+
+.ch3{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+        /* justify-content: center;
+        align-items: center; */
+}
+
+.ch4{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+}
+.rating1{
+    /* grid-column: span 2; */
+    display: flex;
+    /* border: 3px solid green; */
+    height: 15%;
+    margin-top: 33%;
+    width: 80%;
+}
+.rating2{
+    /* grid-column: span 2; */
+    display: flex;
+    /* border: 3px solid green; */
+    height: 15%;
+    margin-top: 33%;
+    width: 80%;
+}
+
+
+
+.special-tasweer-cont{
+    display: grid;
+    border-top: 2px solid #B19540;    
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 90% ;
+    /* padding-bottom: 90%; */
+    width: 80%;
+    padding-top: 15px;
+    margin-top: 30px;
+  }
+
+  .page6disc2{
+    /* grid-column: span 2; */
+    display: grid;
+    /* border-bottom: 2px solid #B19540; */
+    /* border: 2px solid orange; */
+    /* margin-bottom: 10%; */
+    margin-top: -35px;
+    /* height: 80%; */
+    background-attachment: fixed;
+    width: 80%;
+}
+
+.special-tasweer-cont2{
+    display: grid;
+    border-top: 2px solid #B19540;    
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10% ;
+    /* padding-bottom: 90%; */
+    width: 80%;
+    padding-top: 15px;
+  }
+
+  
+  .rating1 .fa {
+    color: #8D8D8D;
+  }
+  
+  .rating1 .checked {
+    color: #f4d442;
+  }
+
+  .rating2 .fa {
+    color: #8D8D8D;
+  }
+  
+  .rating2 .checked {
+    color: #f4d442;
+  }
+
+  .page6-p{
+    font-family: Montserrat (woff2), sans-serif;
+    color: #8D8D8D;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .page6disc p{
+    font-family: Century Gothic, sans-serif;
+    font-size: 15px;
+    line-height: 27.8px;
+    font-weight: 700;
+    color: black;
+  }
+  .page6disc2 p{
+    font-family: Century Gothic, sans-serif;
+    font-size: 15px;
+    line-height: 27.8px;
+    font-weight: 700;
+    color: black;
+  }
+
+  
+
+  .tasweer{
+    grid-column: span 1;
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    clip-path: circle();
+    /* border: 9px solid brown; */
+    /* border-radius: 50%; */
+    margin-bottom: 20px;
+    /* padding-bottom: 0px; */
+    /* padding-top: ; */
+    
+
+  }
+
+  .tasweer-h6{
+    grid-column: span 1;
+    color: #101010;
+    /* border: 1px solid green; */
+    /* margin-right: 90%; */
+    /* width: 190px; */
+    margin-right: 120px;
+    margin-left: 2px;
+    
+  }
+
+  .page6-tasweer-h6{
+    color: #8D8D8D;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding-top: 20%;
+    padding-left: 45px;
+    padding-bottom: 90px; */
+    padding: 40px 70px 40px 4px;
+    /* width: 70%; */
+    /* padding-right: 80%; */
+  }
+
+  .nibbi2{
+    width: 100px;
+  }
+  .nibbi1{
+    width: 100px;
+    height: 100px;
+  }
+
+/* ======================================================== */
+
+.page7{
+    display: grid;
+    height: 170vh;
+    background: url(./bg-02-free-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.page7body{
+    display: grid;
+    /* border: 1px solid red; */
+    /* height: 150vh; */
+    margin: 0 10% 0 10%;
+    grid-template-rows: 60% 15% 25%;
+
+    
+}
+
+.page-7{
+    display: grid;
+    /* border: 1px solid green; */
+}
+
+.head h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 115px;
+    line-height: 126.5px;
+    font-weight: 700;
+    font-stretch: 100%;
+    color: #B19540;
+    padding-top: 28%;
+    padding-right: 4%;
+}
+.disc h3{
+    font-family: "Libre Baskerville", serif;
+    color: #f1f1f1;
+    font-size: 29px;
+    line-height: 34.8px;
+    font-weight: 700;
+    width: 70%;
+    padding-top: 8%;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    /* grid-template-rows: ; */
+    align-items: center;
+}
+
+.p7-left{
+    display: grid;
+    border-right: 2px solid #8D8D8D;
+    height: 60%;
+    align-items: center;
+    
+    
+}
+.p7-right{
+    display: grid;
+    /* border: 1px solid blue; */
+    height: 60%;
+    
+    
+}
+
+.p7-rent-btn{
+    padding: 13px 30px;
+    background: none;
+    color: #B19540;
+    outline: none;
+    border: 2px solid #B19540;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 30%;
+    width: 70%;
+    transition: .5s;
+    /* margin-top: 30%; */
+    /* border-radius: 50px; */
+}
+.p7-rent-btn:hover{
+    background: #B19540;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.p7-right h6{
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    /* line-height: 20px; */
+    font-weight: 700;
+    color: white;
+    padding-top: 5%;
+    padding-left: 6%;
+}
+
+.p7-right h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 39px;
+    /* line-height: 20px; */
+    font-weight: 700;
+    color: #B19540;
+    padding-bottom: 4%;
+    padding-left: 6%;   
+}
+
+/* .................................................. */
+.page8{
+    display: grid;
+    height: 130vh;
+
+}
+
+.page8body{
+    display: grid;
+    grid-template-rows: 50% 30% 20%;
+}
+.p8{
+    display: grid;
+    /* border: 1px solid blue; */
+}
+
+.pagehead{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.p8-left{
+    display: grid;
+    /* border: 1px solid green; */
+    padding-left: 22%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.p8-left h2{
+    color: #101010;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 21px;
+}
+
+.p8-left p{
+    color: #8D8D8D;
+    font-family: Montserrat (woff2), sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.p8-right{
+    display: grid;
+    /* border: 1px solid green; */
+    padding-left: 2%;
+    padding-top: 16%;
+    padding-bottom: 12%;
+}
+
+.p8-right h2{
+    color: #101010;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 21px;
+}
+
+.p8-list{
+    color: #101010;
+}
+
+.p8-list:hover{
+    color: #B19540;
+    cursor: pointer;
+}
+
+.pagecenter{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.pagecenter h6{
+    font-family: "Libre Baskerville", serif;
+    color: #101010;
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-weight: 700;
+    
+}
+
+.pagecenter h1{
+    font-family: "Libre Baskerville", serif;
+    color: #101010;
+    font-size: 116px;
+    /* line-height: 20px; */
+    font-weight: 700;
+}
+
+.pagefooter{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.f-left{
+    display: grid;
+    /* border: 1px solid purple; */
+    padding-left: 12%;
+    padding-top: 7%;
+}
+
+.f-left p{
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8D8D8D;
+}
+
+.f-right{
+    /* display: grid; */
+    /* border: 1px solid purple; */
+    padding-left: 24%;
+    padding-top: 15%;
+}
+
+.f-right a{
+    padding: 2%;
+}
+
+.f-right a i{
+    font-size: 2em;
+}
